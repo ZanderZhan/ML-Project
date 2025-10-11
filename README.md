@@ -1,9 +1,21 @@
 # GitHub Issue Report Classification
 
+## Environments
+1. Python 3.12.10 (Better to install Python 3.10-13! It works correctly on 3.12.10)
+2. Install dependencies: pandas, transformers ...
+
+## Dataset
+1. `dataset/raw`: contains the original dataset, do not edit these files
+2. `dataset/preprocess`: contains the dataset which has been processed by `scripts/preprocessing.by`
+
+To get the train data, 
+1. you can simply unzip the `dataset/preprocess/github-labels-top3-803k-train.csv.zip`
+2. or you run the script `scripts/preprocessing.by`
+
+
 ## Models
 1. SVM
 2. ELECTRA
-
 
 ## RQs
  just 3 RQs, cause the project requirements said we just need to define 2-3 RQs, 
@@ -28,10 +40,10 @@
 ## Preprocessing
 
 ### data cleaning
-- drop rows with empty `issue_body`
+- drop rows with empty/NAN in `issue_body`/`issue_title`
 - drop rows which label is not in [bug, enhancement, question]
-- concatenate `issue_title` and `issue_body` into one metadata: `issue`.
-- replace tabs and breaks in the `issue` with `spaces`, then remove repeating whitespaces
+- concatenate `issue_title` and `issue_body` into one metadata: `issue_data`.
+- replace tabs and breaks in the `issue_data` with `spaces`, then remove repeating whitespaces
 - tokenize `issue` data using `BertTokenizer`
 
 
