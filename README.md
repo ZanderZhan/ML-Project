@@ -6,6 +6,8 @@
 
 
 ## RQs
+ just 3 RQs, cause the project requirements said we just need to define 2-3 RQs, 
+ so keep it simple and adequate
 
 - SVM, ELECTRA vs BERT
 - change hyperparameters
