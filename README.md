@@ -44,10 +44,13 @@ To get the train data,
 - drop rows which label is not in [bug, enhancement, question]
 - concatenate `issue_title` and `issue_body` into one metadata: `issue_data`.
 - replace tabs and breaks in the `issue_data` with `spaces`, then remove repeating whitespaces
-- tokenize `issue` data using `BertTokenizer`
-
+- tokenize `issue_data` data using `BertTokenizer`
+- split data
+  - 85% training data, in which 15% is validation data
+  - 15% testing data
 
 ## Baseline
+
 
 
 ## AI-Assistance log
