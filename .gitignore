@@ -1,1 +1,3 @@
 .idea/
+/dataset/raw/github-labels-top3-803k-test.csv
+/dataset/raw/github-labels-top3-803k-train.csv
