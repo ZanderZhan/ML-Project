@@ -31,7 +31,7 @@
 - drop rows with empty `issue_body`
 - drop rows which label is not in [bug, enhancement, question]
 - concatenate `issue_title` and `issue_body` into one metadata: `issue`.
-- replace tabs and spaces in the `issue` with `spaces`, then remove repeating whitespaces
+- replace tabs and breaks in the `issue` with `spaces`, then remove repeating whitespaces
 - tokenize `issue` data using `BertTokenizer`
 
 
