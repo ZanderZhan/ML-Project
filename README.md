@@ -1,4 +1,4 @@
-# ML-Project
+# GitHub Issue Report Classification
 
 ## Models
 1. SVM
@@ -40,5 +40,8 @@
 
 ## AI-Assistance log
 
-1. What other NLP models are there besides BERT?
-2. Tell me more about ELECTRA
+1. how does “DistilBERT/BERT” works?
+2. what are the imbalance methods
+3. how to choose stratified by label
+4. What other NLP models are there besides BERT?
+5. Tell me more about ELECTRA
