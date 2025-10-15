@@ -60,3 +60,4 @@ To get the train data,
 3. how to choose stratified by label
 4. What other NLP models are there besides BERT?
 5. Tell me more about ELECTRA
+6. How do I decide the number of epoch?
