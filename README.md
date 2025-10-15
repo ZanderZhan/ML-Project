@@ -8,9 +8,9 @@
 1. `dataset/raw`: contains the original dataset, do not edit these files
 2. `dataset/preprocess`: contains the dataset which has been processed by `scripts/preprocessing.by`
 
-To get the train data, 
+To get the train data(Use the method 1, processing script is under changing), 
 1. you can simply unzip the `dataset/preprocess/github-labels-top3-803k-train.csv.zip`
-2. or you run the script `scripts/preprocessing.by`
+2. or you run the script `scripts/preprocessing.ipynb`
 
 
 ## Models
