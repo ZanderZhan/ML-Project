@@ -5,7 +5,7 @@
 | Model   | Max sequence length | Epochs: Stoped Epoch | Early stopping(patience) | Batch size | learning_rate | Weight decay | optimizer | Accuracy | Precision | Recall | F1 |
 |---------|---------------------|----------------------|--------------------------|------------|---------------|--------------|-----------|----------|-----------|--------|----|
 | BERT    | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
-| ELECTRA | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
+| FLAN-T5 | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
 | GPT2    | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
 | FUNNEL  | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
 
