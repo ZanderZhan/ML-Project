@@ -1,5 +1,15 @@
 # GitHub Issue Report Classification
 
+## Comparison
+
+| Model   | Max sequence length | Epochs: Stoped Epoch | Early stopping(patience) | Batch size | learning_rate | Weight decay | optimizer | Accuracy | Precision | Recall | F1 |
+|---------|---------------------|----------------------|--------------------------|------------|---------------|--------------|-----------|----------|-----------|--------|----|
+| BERT    | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
+| FLAN-T5 | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
+| GPT2    | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
+| FUNNEL  | 128                 | 50:                  | 3                        | 8          | 5e-5          | 0.01         | AdamW     |
+
+
 ## Environments
 1. Python 3.12.10 (Better to install Python 3.10-13! It works correctly on 3.12.10)
 2. Install dependencies: pandas, transformers ...
